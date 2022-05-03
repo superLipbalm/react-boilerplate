@@ -22,7 +22,8 @@
   },
   "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "no-implicit-coercion": "error"
   },
   "ignorePatterns": ["node_modules/", "vite.config.ts"]
 }
